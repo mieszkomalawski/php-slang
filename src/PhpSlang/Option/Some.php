@@ -53,7 +53,7 @@ class Some extends Option
     /**
      * @return mixed
      */
-    final public function get()
+    public function get()
     {
         return $this->content;
     }
